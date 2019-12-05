@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Ʌrianne Macena, web developer or whatever you want to 🚀🌈🍡🍷🎨🦄🍑🍙🌩️🥀🧚‍🌊🔮</title>
+	<meta name="description" content="Arianne Macena, web developer based in Brazil">
+	<meta content="Arianne Macena, web developer based in Brazil" property="og:description">
+	<meta content="Web developer, freelancer, Brazil, portfolio" name="keywords">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- ICONS -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- STYLESHEETS -->
+	<style type="text/css">
+  		@import url(https://fonts.googleapis.com/css?family=Press+Start+2P); html, body { margin: 0; top: 0; left: 0; width: 100%; height: 100%; } body { background-color: rgb(1, 2, 172); font-family: 'Press Start 2P', cursive; color: white; } .container { display:flex; align-items:center; width:100%; height:100%; } .msg { padding-left: 100px; padding-right: 100px; } p { text-align: left; } .continue { text-align: center; } .highlight { color: rgb(1, 2, 172); background-color: rgb(172, 173, 168); padding: 3px; text-align: center; width: 150px; } .blink { animation: blink 1s steps(2, start) infinite; } @keyframes blink { to { visibility: hidden; } }
+  	</style>  
+
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class='container'>
+    <div class="msg" style='text-align:center'>
+
+	     <p class='highlight'>Error 404 </p>
+
+	     <div id="content" style="display: none">
+	     	
+	     </div>
+</div>
+
+	<script type="text/javascript">
+		const vapor = document.createElement('audio'),
+        lang = localStorage.getItem("lang"),
+        wrap = document.getElementById("content"),
+        loc = window.location.pathname;
+		dir = loc.substring(0, loc.lastIndexOf('/') + 1)
+		wrap.innerHTML = '<p>A fatal exception 0E has occured at 028:C00068F8 in VxD VMM(01) 000059F8. <br><br><u>The current page was not found.</u></p> <p>* Press CTRL+ALT+D to listen to a soft vaporwave (if you are using a computer and, of course, your browser enjoy it).</p> <br> <p class="continue">Press any key to continue <span class="blink">_</span></p>'
+		
+       
+        wrap.style.display = "block";
+        document.addEventListener("DOMContentLoaded", function(event) { 
+		  	document.body.addEventListener("keydown", function(event) {
+		        if (event.ctrlKey && event.altKey && event.keyCode == '68') {
+		            vapor.setAttribute('src', 'https://drive.google.com/uc?export=download&id=1KH-lvU0ZJ9BHtlhYsZjTYhTaK7nZGZ_V');
+		            if (!vapor.paused) vapor.stop();
+		            vapor.play();
+		        } else {
+		            if (event.keyCode == '32') window.location.replace(dir);
+		        }
+		    });
+		});
+	</script>
+
+</body>
+</html>
